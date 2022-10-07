@@ -1,0 +1,59 @@
+Software Engineer (Web) Test, JALA
+
+Brief
+
+JALA adalah aplikasi yang dibuat untuk membantu petambak budidaya dalam berbudidaya udang. Aplikasi jala menyediakan platform yang membantu dalam pencatatan data budidaya seperti pencatatan data pakan, sampling (pengukuran berat udang dengan sampling), panen, catatan finansial, dan stok pergudangan. Disamping itu, jala juga menyediakan portal informasi yang dapat membantu petambak dalam mencari informasi terkait harga udang, penyakit udang, maupun informasi-informasi lain yang berkaitan dengan budidaya udang. 
+
+Pada test software engineer kali ini, Anda diminta untuk mengerjakan dua buah tes, tes backend dan frontend. Masing masing test memiliki point dalam pengerjaan. Anda diperbolehkan untuk mengerjakan semua tes atau sebagian test.
+
+Backend Test (50 points)
+
+Pada test ini, anda diminta membuat sebuah backend menggunakan Laravel untuk Toko Online sederhana dengan spesifikasi sebagai berikut.
+
+1. Terdapat 2 role, admin dan user
+2. Admin dapat menambahkan Product dengan detail
+    1. SKU
+    2. Nama Product
+    3. Harga Satuan
+3. Admin dapat menambahkan Stock dengan membuat Purchase Order dengan detail
+    1. Invoice Number
+    2. List Pembelian Product dengan detail
+        1. Quantity
+        2. Harga Satuan
+4. User dapat melihat list Product beserta stock nya
+5. User dapat membuat Pending Sale Order dengan detail
+    1. Customer
+    2. List Product dengan detail
+        1. Quantity
+        2. Harga Satuan
+6. Admin dapat mengappprove Pending Sale Order menjadi Sale Order
+7. Admin juga dapat membuat langsung Sale Order dengan detail
+    1. Invoice Number
+    2. Customer
+    3. List Product dengan detail
+        1. Quantity
+        2. Harga Satuan
+
+
+Frontend Test (50 points)
+
+Pada test ini, anda diminta untuk membuat clone dari halaman List Harga Udang https://app.jala.tech/harga_udang dan Detail Harga Udang https://app.jala.tech/harga_udang/2310 dengan menggunakan component https://vue.chakra-ui.com/getting-started . Abaikan Navbar dan Sidebar
+
+Berikut data dummy yang bisa Anda digunakan
+
+shrimp
+
+
+
+Untuk menampilkan avatar bisa menggunakan. Contoh: https://app.jala.tech/storage/(shrimp_prices[0].creator.avatar)
+
+*Waktu pengerjaan dan pengumpulan test ini adalah 1 minggu setelah Anda menerima e-mail terkait pengerjaan test.
+
+
+Perhatian
+
+Tugas dikumpulkan dalam bentuk online repo (bisa github, gitlab, atau online repo lain). Tugas backend dan frontend dapat dipisah ke dalam dua repo yang berbeda. Link repo dapat Anda masukkan ke dalam dokumen, kemudian dokumen berisi link repo tugas disubmit ke form submisi berikut → https://forms.gle/oi2AjNgEp4Q5jLNv6
+Isi email, nama lengkap, serta pilih jabatan yang didaftar sebagai Software Engineer(Web). Pastikan Anda melakukan submisi tugas dengan benar. Tugas yang tidak disubmit sesuai ketentuan tidak akan diperiksa oleh tim Jala dan berakibat berhentinya proses rekruitment Anda.
+
+
+Jika ada pertanyakan terkait test, silakan menghubungi Pak Farid melalui email ke farid@jala.tech

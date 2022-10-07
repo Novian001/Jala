@@ -1,0 +1,17 @@
+2 role :
+*admin
+*user
+
+Table =
+Product :
+*SKU
+*Nama
+*price
+
+-stock
+purchase order:
+*invoice number
+*list =
+	quantity
+	harga satuan
+*
